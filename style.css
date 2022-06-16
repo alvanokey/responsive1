@@ -91,7 +91,7 @@ p {
         flex-direction: column;
 
     }
-    body {background-image:url(bg-intro-desktop.png);
+    body {background-image: url(bg-intro-mobile.png);
     }
 }
 
@@ -106,8 +106,7 @@ p {
         display: block;
         flex-direction: row;
     }
-    body{
-        background-image: url(bg-intro-mobile.png);
+    body{background-image:url(bg-intro-desktop.png);
     }
 }
 
