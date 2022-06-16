@@ -89,7 +89,9 @@ p {
     main {
         display: block;
         flex-direction: column;
-        background-image:url(bg-intro-desktop.png);
+
+    }
+    body {background-image:url(bg-intro-desktop.png);
     }
 }
 
@@ -103,6 +105,8 @@ p {
     main {
         display: block;
         flex-direction: row;
+    }
+    body{
         background-image: url(bg-intro-mobile.png);
     }
 }
