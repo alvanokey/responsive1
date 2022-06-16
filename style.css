@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(bg-intro-desktop.png);
+    background-color: hsla(0, 100%, 74%);
+
+}
+
+main {
+    font-size: 16px;
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    margin: auto;
+    width: 70%;
+    height: 100vh;
+    color: white;
+}
+
+.one {
+    min-width: 50%;
+    margin: auto;
+
+}
+
+.two {
+    min-width: 50%;
+    margin: auto;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    padding: 45px 35px;
+    max-width: 600px;
+
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h4 {
+    font-size: 13px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    max-width: 650px;
+
+}
+
+b {
+    color: red;
+}
+
+
+#Submit {
+    color: white;
+    background-color: rgb(22, 159, 22);
+}
+
+input {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+p {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+@media screen and (max-width:320px) {
+    main {
+        display: block;
+        flex-direction: column;
+        background-image: url(bg-intro-mobile.png);
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .one {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:700px) {
+    main {
+        display: block;
+        flex-direction: row;
+        background-image: url(bg-intro-desktop.png);
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .one {
+        flex-direction: row;
+    }
+}
